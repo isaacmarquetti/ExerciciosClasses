@@ -1,3 +1,6 @@
+import os
+
+
 class Bola:
     def __init__(self):
         self.cor = 'Azul'
@@ -10,8 +13,11 @@ class Bola:
     def mostra_cor(self):
         return self.cor
 
+
 # Exemplo
 
 bola = Bola()
 bola.troca_cor('Amarelo')
 print(bola.mostra_cor())
+
+os.system('cls')
